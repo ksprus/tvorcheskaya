@@ -1,0 +1,203 @@
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    
+    }
+    
+    @font-face {
+    font-family: 'Comfortaa', cursive;
+    }
+    
+    
+    .container-fluid {
+      margin: 0;
+      padding: 0;
+    }
+    
+    /*Барашкин уголок*/
+    
+    .header_img {
+        width: 100%;
+      height: 250px;
+      background: url('/src/img/fon.jpg') center center no-repeat;
+      background-color: azure;
+      background-size: cover;
+    }
+    
+    
+    .navbar-brand img {
+      width: 70px;
+      height: 70px;
+    
+    }
+    
+    
+   
+    
+    /* Цвета ссылок navbar */
+    .navbar-light .navbar-brand {
+      color: #0088c6;
+      font-size: 1.3em;
+      font-weight: 500;
+    }
+    
+    .navbar-light .navbar-brand a:visited {
+      color:#0088c6;
+    }
+    
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+      color:#0088c6;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+      font-size: 18px;
+      padding-left: 15px;
+      padding-right: 15px;
+      color:#0088c6;
+    }
+    
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+      color: #0088c6;
+      border: 2px solid #0088c6;
+      border-radius: 10px;
+     }
+    
+    
+     .btn-outline-success {
+      color: #0088c6;
+      border-color: #0088c6;
+    
+     }
+    
+     .btn-outline-success:hover {
+      background-color: #0088c6;
+      color: #fff;
+      border-color: #0088c6;
+     
+     }
+    
+     .navbar-light .navbar-nav .nav-link {
+      font-weight: 600;
+    }
+
+    .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover  {
+      color: #0088c6;
+    }
+    
+    /* настройка для  футера */
+     footer {
+      background:#161d33;
+       color: white;
+      margin-top:100px;
+    }
+    
+    footer a {
+      color: #fff;
+      font-size: 14px;
+      transition-duration: 0.2s;
+    }
+    
+    footer a:hover {
+      color: #ffe400;
+      text-decoration: none;
+    }
+    
+    .copy {
+      font-size: 12px;
+      padding: 10px;
+      border-top: 1px solid #FFFFFF;
+    }
+    
+    .footer-middle {
+      margin-top: -50px;
+      padding-top: 1em;
+      color: white;
+    }
+    
+    /* настройка для колонок футера */
+    .fm {
+      margin-top: 10px;
+      margin-left: 8%;
+      margin-bottom: 20px;
+    }
+    
+    
+    .fm1 {
+      font-size: 18px;
+      margin-top: 10px;
+      margin-left: 8%;
+      margin-bottom: 20px;
+    }
+    
+    /* прокрутка вверх */
+    #button-up{
+      display: none;	
+      opacity:0.5;
+      filter:alpha(opacity=50);
+      position: fixed;
+      left: 10px;
+      bottom: 100px;			
+      color: #000;
+      transition: .3s;
+    }
+     
+    #button-up:hover{
+      cursor: pointer;
+      opacity: 1;
+      filter:alpha(opacity=100);
+      transition: .3s;
+      color: #000;
+    }
+
+    .day_blog {
+      margin-top: 30px;
+      max-width:900px;
+     border: 1px solid #b9e1f3;
+     border-radius: 15px;
+    }
+
+    .article_links ul {
+     
+      margin-top: 30px;
+      list-style-type: none;
+      margin-left: 3%;
+      font-size: 1.1rem;
+      
+    }
+    
+  
+    
+    .day_blog h2 {
+      margin-left: 20px;      
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .day_blog img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px 15px 0px 0px;
+    }
+    
+    .day_blog p {
+      font-family: 'Montserrat', sans-serif;
+      margin-left: 20px;
+      margin-right: 15px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+        }
+
+    .date_news {
+      color: rgb(153, 144, 144);
+      margin-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .blog-sidebar {
+      margin-top: 30px;
+    }
+    
+    
+    
