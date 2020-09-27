@@ -15,15 +15,18 @@
     }
     
     /*Барашкин уголок*/
-    
+     
     .header_img {
-        width: 100%;
-      height: 250px;
-      background: url('/src/img/b/header-bu.jpg') center center no-repeat;
-      background-color: azure;
-      background-size: cover;
+      height: 30vh;
+      width: 100%;
+      position: relative;
     }
     
+     .header1_img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
     
     .navbar-brand img {
       width: 70px;

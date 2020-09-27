@@ -3,11 +3,16 @@
     width: 100%;
     padding-right: 0;
     padding-left: 0;
-    margin-right: auto;
-    margin-left: auto;
+
 }
 
-
+.container-fluid .header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 0px;
+  margin-top: 20px;
+} 
 
 .glav_img img{
    margin-top: 30px;
@@ -39,8 +44,12 @@
       
       .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
         color: #0088c6;
-        border: 2px solid #0088c6;
-        border-radius: 10px;
+        border: 1px solid #0088c6;
+        border-radius: 5px;
+        height:  100%;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
        }
       
       
@@ -78,21 +87,19 @@
       }
 
 
-.soderjimoe {
+  .container-fluid .soderjimoe {
     max-width:960px;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     
 }
 
 
 
 .soderjimoe .glav_img {
-        margin-top: 30px;
-    float: left;
-    border-radius: 1px solid black;
+   margin: 0 auto;
        
       
     }
@@ -100,14 +107,15 @@
    
 
 
-     .glav_text {
+    .soderjimoe .glav_text {
 
-        display: block;
-        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         
         margin-top: 30px;
      
-                   text-align: center;
+        
            
          
            color: #0088c6;
@@ -115,15 +123,17 @@
           
      }
 
-
-     span {
-         display: flex;;
+     .glav_text h2 {
+       text-align: center;
      }
 
-     span h1 {
-         font-size: 1.2rem;
-     }
-
-     span p {
-        font-size: 1.2rem;
+     .glav_text p {
+      text-align: center;
     }
+
+
+
+
+
+
+    
